@@ -1,0 +1,667 @@
+@font-face {
+    font-family: "Inter500";
+    src: url("../../assets/fonts/Inter500.ttf");
+}
+
+@font-face {
+    font-family: "Inter400";
+    src: url("../../assets/fonts/Inter400.ttf");
+}
+
+@font-face {
+    font-family: "";
+    src: url("../../assets/fonts/Sen700.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container2 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main_bg {
+    width: 1440px;
+    height: 720px;
+    background-image: url(../../assets/images/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
+    background-repeat: no-repeat;
+    padding: 128px 81px;
+
+    ;
+}
+
+.main_text {
+    font-family: "Inter500";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: white;
+}
+
+.main_text2 {
+    width: 803px;
+    height: 128px;
+    font-family: "Sen700";
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-top: 24px;
+    color: white;
+}
+
+.main_text3 {
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+    margin-top: 24px;
+}
+
+.main_text4 {
+    width: 599px;
+    height: 56px;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 16px;
+    color: white;
+}
+
+span {
+    color: goldenrod;
+}
+
+.main_btn {
+    width: Hug (204px)px;
+    height: Hug (56px)px;
+    padding: 16px 48px 16px 48px;
+    background-color: #FFD050;
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+    font-family: "Sen700";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #232536;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.main_btn:hover {
+    transition: .5s;
+    color: #FFD050;
+    background-color: transparent;
+    border: 1px solid #FFD050;
+}
+
+.main_texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 128px;
+    gap: 542px;
+
+}
+
+.p {
+    display: flex;
+    align-items: center;
+    gap: 322px;
+}
+
+.main_text5 {
+    font-family: "Sen700";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #232536;
+}
+
+.main_text6 {
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    cursor: pointer;
+    color: #592EA9;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.section_card {
+    width: 733px;
+    height: 724px;
+    border: 1px solid #6D6E76;
+    padding: 32px;
+}
+
+.s_card_text {
+    font-family: "Inter500";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 32px;
+    color: #4C4C4C;
+}
+
+.s_card_text2 {
+    font-family: "Sen700";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-top: 16px;
+    color: #232536;
+}
+
+.s_card_text3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 16px;
+    color: #6D6E76;
+}
+
+.section_card_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: Hug (204px)px;
+    height: Hug (56px)px;
+    padding: 16px 48px 16px 48px;
+    font-family: Sen;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+    color: #232536;
+    margin-top: 32px;
+    background-color: #FFD050;
+}
+
+.section_card_btn:hover {
+    transition: .5s;
+    color: #FFD050;
+    border: 1px solid #FFD050;
+    background-color: transparent;
+}
+
+.section_title_text {
+    font-family: Sen;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 8px;
+    color: #232536;
+    width: 369px;
+    height: 96px;
+}
+
+.section_title_group {
+    width: 517px;
+    height: 181px;
+    transition: .5s;
+    padding: 32px;
+    cursor: pointer;
+}
+
+.section_title_group:hover {
+    transition: .5s;
+    background-color: #FBF6EA;
+}
+
+.s_card_text4 {
+    font-family: "Inter500";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #4C4C4C;
+}
+
+.section_title {
+    margin-top: 20px;
+}
+
+.section_color {
+    width: 1000px;
+    height: 15px;
+    background: linear-gradient(90deg, #FFD050 0%, #FFD050 75%, #592EA9 75%, #592EA9 100%);
+    margin-top: 128px;
+    margin-left: 350px;
+}
+
+.section_title_bg {
+    width: 1280px;
+    height: 500px;
+    background-color: #F4F0F8;
+    margin-left: 70px;
+    padding: 96px 80px;
+    display: flex;
+    gap: 71px;
+}
+
+.bg_text {
+    font-family: "Inter500";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #232536;
+}
+
+.bg_text2 {
+    width: 494px;
+    height: 144px;
+    font-family: "Sen700";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #232536;
+    margin-top: 24px;
+}
+
+.bg_text3 {
+    width: 515px;
+    height: 56px;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 16px;
+    color: #6D6E76;
+}
+
+.bg_text4 {
+    font-family: "Sen700";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 16px;
+    color: #592EA9;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.bg_text5 {
+    width: 481px;
+    height: 80px;
+    font-family: "Sen700";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #232536;
+    margin-top: 24px;
+}
+
+.out {
+    text-align: center;
+    font-family: "Sen700";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-top: 128px;
+}
+
+.s_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 80px;
+}
+
+.s_card {
+    width: 296px;
+    height: 228px;
+    border: 1px solid #6D6E76;
+    padding: 32px;
+    transition: .5s;
+}
+
+.s_card:hover {
+    transition: .5s;
+    background-color: #FFD050;
+    cursor: pointer;
+}
+
+.card_img {
+    background-color: #FBF6EA;
+    width: 48px;
+    height: 48px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.section_card_text {
+    font-family: "Sen700";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.section_card_text2 {
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #6D6E76;
+    margin-top: 8px;
+}
+
+.section_imgs {
+    margin-top: 128px;
+    display: flex;
+    position: relative;
+}
+
+.section_shadov {
+    width: 706px;
+    height: 584px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 122px;
+    left: 610px;
+    padding: 80px;
+}
+
+.sec_img {
+    margin-left: 40px;
+}
+
+.shadov_text {
+    font-family: "Inter500";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #232536;
+}
+
+.shadov_text2 {
+    width: 546px;
+    height: 192px;
+    font-family: "Sen700";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.shadov_text3 {
+    width: 546px;
+    height: 84px;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #6D6E76;
+    margin-top: 16px;
+}
+
+.person_card {
+    width: 296px;
+    height: 324px;
+    padding: 40px 35px;
+    background-color: #F4F4F4;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.person_card:hover {
+    transition: .5s;
+    background-color: #FBF6EA;
+}
+
+.person_img {
+    width: 128px;
+    height: 128px;
+    margin-left: 45px;
+}
+
+.person_text {
+    font-family: "Sen700";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 20px;
+    color: #232536;
+}
+
+.person_text2 {
+    font-family: "Inter400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 5px;
+    color: #6D6E76;
+}
+
+.person_linklar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    gap: 16px;
+    margin-top: 21px;
+    color: #232536;
+}
+
+.p2 {
+    font-family: "Inter400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 96px;
+    color: #6D6E76;
+    margin-left: 80px;
+}
+
+.firmalar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+    margin-bottom: 96px;
+}
+
+.section_bg2 {
+    width: 1280px;
+    height: 464px;
+    background-color: #FBF6EA;
+    margin: 0 auto;
+    padding: 92px 112px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.out2 {
+    font-family: "Inter500";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #232536;
+}
+
+.out3 {
+    font-family: "Sen700";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+    width: 345px;
+    height: 96px;
+    margin-top: 12px;
+    color: #232536;
+}
+
+.out4 {
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    width: 349px;
+    height: 56px;
+    color: #232536;
+    margin-top: 16px;
+}
+
+.chiziq {
+    width: 2px;
+    height: 310px;
+    background-color: #6D6E76;
+}
+
+.out5 {
+    width: 469px;
+    height: 128px;
+    font-family: "Sen700";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #232536;
+}
+
+.per {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    gap: 16px;
+}
+
+.out6 {
+    font-family: "Sen700";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #232536;
+}
+
+.out7 {
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #6D6E76;
+    margin-top: 2px;
+}
+
+.out8 {
+    width: 414px;
+    height: 96px;
+    margin-top: 128px;
+    font-family: "Sen700";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+.out9 {
+    width: 405px;
+    height: 56px;
+    margin-top: 16px;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.sed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec_btn {
+    width: Hug (174px)px;
+    height: Hug (56px)px;
+    text-align: center;
+    padding: 16px 48px 16px 48px;
+    border: 1px solid transparent;
+    transition: .5s;
+    cursor: pointer;
+    font-family: "Sen700";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 32px;
+    color: #232536;
+    background-color: #FFD050;
+}
+
+.sec_btn:hover{
+    transition: .5s;
+    background-color: transparent;
+    border: 1px solid #FFD050;
+    color: #FFD050;
+}

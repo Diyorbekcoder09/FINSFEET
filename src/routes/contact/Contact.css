@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Inter400";
+    src: url("../../assets/fonts/Inter400.ttf");
+}
+
+@font-face {
+    font-family: "Inter500";
+    src: url("../../assets/fonts/Inter500.ttf");
+}
+
+@font-face {
+    font-family: "Sen700";
+    src: url("../../assets/fonts/Sen700.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container_c {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.contact_text {
+    font-family: "Inter500";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 128px;
+}
+
+.contact_text1 {
+    font-family: "Sen700";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.contact_text2 {
+    width: 768px;
+    height: 56px;
+    text-align: center;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-left: 336px;
+    margin-bottom: 64px;
+}
+
+.contact_card {
+    width: 768px;
+    height: 240px;
+    background-color: #592EA9;
+    padding: 48px 64px;
+    margin-top: 64px;
+    margin: 0 auto;
+    display: flex;
+    gap: 42px;
+}
+
+.contact_card_title {
+    width: 294px;
+
+}
+
+.contact_card_text {
+    font-family: "Inter400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: white;
+}
+
+.contact_card_text1 {
+    font-family: "Sen700";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 16px;
+    color: white;
+}
+
+.contact_card_text2 {
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 10px;
+    color: white;
+}
+
+.contact_input {
+    width: 768px;
+    height: 76px;
+    padding: 0px 24px;
+    margin-top: 32px;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #232536;
+    border: 1px solid #6D6E7680;
+    outline: none;
+}
+
+.contact_form {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.contact_input2 {
+    width: 768px;
+    height: 76px;
+    padding: 0px 24px;
+    margin-top: 16px;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #232536;
+    border: 1px solid #6D6E7680;
+    outline: none;
+}
+
+.contact_select {
+    width: 768px;
+    height: 76px;
+    padding: 0px 24px;
+    margin-top: 16px;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #232536;
+    border: 1px solid #6D6E7680;
+    outline: none;
+}
+
+.textarea {
+    margin-top: 16px;
+    width: 768px;
+    height: 144px;
+    outline: none;
+    padding: 20px;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.contact_btn {
+    width: 768px;
+    height: 64px;
+    background-color: #FFD050;
+    margin-top: 16px;
+    font-family: "Sen700";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    transition: .5s;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.contact_btn:hover{
+    transition: .5s;
+    color: #FFD050;
+    border: 1px solid #FFD050;
+    background-color: transparent;
+}

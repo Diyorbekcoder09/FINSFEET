@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "Inter400";
+    src: url("../../assets/fonts/Inter400.ttf");
+}
+
+@font-face {
+    font-family: "Inter500";
+    src: url("../../assets/fonts/Inter500.ttf");
+}
+
+@font-face {
+    font-family: "Sen700";
+    src: url("../../assets/fonts/Sen700.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container_about {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    max-width: 1440px;
+    position: relative;
+    gap: 32px;
+    margin-top: 80px;
+}
+
+.about_shadov {
+    width: 624px;
+    height: 356px;
+    padding: 64px;
+    position: absolute;
+    background-color: white;
+    left: 150px;
+}
+
+.main_a_text {
+    font-family: "Inter500";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #232536;
+}
+
+.main_a_text2 {
+    width: 496px;
+    height: 192px;
+    font-family: "Sen700";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #232536;
+    margin-top: 16px;
+}
+
+.about_text {
+    width: 477px;
+    height: 112px;
+    color: #4C4C4C;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 830px;
+    margin-bottom: 79px;
+    margin-top: 80px;
+}
+
+.main_about_img {
+    width: 1280px;
+    height: 444px;
+    background-image: url(../../assets/images/about_img.png);
+    padding: 109px;
+    margin: 0 auto;
+}
+
+.kak {
+    width: 630px;
+    height: 156px;
+    background-color: #FFD050;
+    margin-top: 156px;
+}
+
+.liner {
+    width: 861.91px;
+    height: 23px;
+    background: linear-gradient(90deg, #592EA9 0%, #592EA9 40%, #FFD050 40%, #FFD050 100%);
+}
+
+.kak_guruh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 68px;
+}
+
+.kak_text {
+    font-family: "Sen700";
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin-top: 32px;
+    color: #232536;
+}
+
+.kak_text2 {
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #232536;
+    margin-top: 5px;
+}
+
+.about_section {
+    width: 1280px;
+    height: 441px;
+    background-color: #F4F0F8;
+    padding: 128px 108px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.dad {
+    font-family: "Inter500";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #232536;
+}
+
+.dad1 {
+    font-family: "Sen700";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: left;
+    width: 401px;
+    height: 80px;
+    margin-top: 24px;
+    color: #232536;
+}
+
+.dad2 {
+    width: 516px;
+    height: 109px;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 16px;
+    color: #6D6E76;
+}
+
+.guruh4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 137px;
+    margin-top: 128px;
+    position: relative;
+}
+
+.dad3 {
+    font-family: "Sen700";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #232536;
+}
+
+.dad4 {
+    width: 519px;
+    height: 96px;
+    font-family: "Sen700";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #232536;
+    margin-top: 16px;
+}
+
+.dad5 {
+    width: 519px;
+    height: 140px;
+    font-family: "Inter400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 16px;
+    color: #232536;
+}
+
+.rang {
+    position: absolute;
+    left: 685px;
+}
+
+.aylana_rang {
+    position: absolute;
+    top: 445px;
+    left: 180px;
+}
+
+.s_cards10{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 32px;
+    margin-top: 80px;
+    max-width: 1280px;
+    margin-left: 80px;
+}
